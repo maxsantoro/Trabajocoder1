@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What we build</title>
+    <title>Available Houses</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"></a>
+          <img class="navbar-brand__logo" src="../images/msp-logos_transparent.png" alt="logo image" >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item  ">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link active" href="what-web-build.html">What We build</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link active" href="Why-us.html">Why us</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link active" href="Contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- <header class="header">
         <a class="header__brand" href="../index.html" >
         <img class="header__logo" src="../images/msp-logos_transparent.png" alt="company logo" >
         </a>
@@ -34,7 +60,7 @@
                 </li>
             
         </ul>
-    </nav>
+    </nav> -->
     </header>
     <main>
         <section class="categories">
@@ -72,12 +98,29 @@
     <footer class="footer">
         <img class="footer__logo" src="../images/msp-logos_transparent.png" alt="company logo">
 
+        <div class="Social-media-container"> </div>
+        <div><a href="#">
+          <img class="social-media__image1" src="../images/facebook (2).png" alt="Fb-page"></a>
+        </div>
+        <div><a href="#">
+          <img class="social-media__image2" src="../images/instagram.png" alt="inst-page"></a>
+        </div>
+        <div><a href="#">
+          <img class="social-media__image3"src="../images/whatsapp (1).png" alt="whatsap-page"></a>
+        </div>
+      </div>
+      <p class="footer__text"> All rights reserved</p> 
+    </footer>
+    <!-- <footer class="footer">
+        <img class="footer__logo" src="../images/msp-logos_transparent.png" alt="company logo">
+
        <div class="Social-media-container"></div>
             <div class="image jam jam-whatsapp">
             <div class="image jam jam-instagram"></div>
             <div class="image jam jam-twitter"></div>
        </div>
         <p class="footer__text"> All rights reserved</p>
-    </footer>
+    </footer> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
