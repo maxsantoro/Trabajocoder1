@@ -265,7 +265,93 @@ main {
     gap: 1rem;
 
 }
+.section1__conteiner{
+    background: #28445a;
+    color: white;
+    padding: 56px 20px 85px 20px;
+    text-align: center;
+    height:600px;
+    width: 100%;
+    position: relative;
+}
+.section1__text{
+    font-size: 2.5rem;
+    color: white;
+    /* font-weight: 600; */
+    letter-spacing: 3.8px;
+    margin-top: 95px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.section1__paragraph{
+   
+    font-size: 1.5rem;
+    margin: 47px auto 0;
+    max-width: 1280px;
+    padding: 0 140px;
+    font-family: sans-serif;
+    
+}
+.section1__h2{
+    font-size: 6.2rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin: 30px 0 0 0;
+    font-family: sans-serif;
+}
+.proyect__conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.proyect__conteiner1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.carousel__conteiner{
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+width: 80%;
+margin-bottom: 10px;
+}
+.carousel__conteiner1{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.carousel__image{
+    height: 100vh;
+    
+}
+.section4{
+}
+.proyect__text{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    font-family: sans-serif;
+    background-color: #28445a;;
+    border-radius: 15px;
+    justify-content: center;
+    color: #fff;
+    
+}
 
+    .Carousel{
+    padding-top: 1rem;
+    
+
+
+}
 
 .categories{
     padding: 2rem 0;
@@ -438,8 +524,9 @@ hr {
     font-size: 16px;
     cursor: pointer;
 }
+
 .container__background{
-  width: 100% ;
+  width: 100vw ;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -450,6 +537,7 @@ hr {
   background-position: center center;
   background-repeat: no-repeat;
   overflow: hidden;
+  
 
 
   }
@@ -517,9 +605,18 @@ hr {
         font-size: 18px;
         line-height: 20px;
     }
-
-
+    .section1__text{
+        font-size: 1.2rem;
+    }
+    .section1__h2{
+        font-size: 3rem;
+    }
+    .section1__paragraph {
+    font-size: 1rem;
+    padding: 0;
 }
+    }
+
 
       
   
