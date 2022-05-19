@@ -1,0 +1,75 @@
+@media screen and (max-width:1023px){
+
+}
+
+@media screen and (max-width:600px){
+    .nav a{
+        font-size: 0.7rem;
+        width: 100%;
+       
+    }
+  
+    .section3{
+        height: auto;
+        margin: 0;
+        
+    }
+    .section2__title2{
+        font-size: 2rem;
+    }
+    .section3__title3{
+        font-size: 1.7rem;
+    }
+    .section3__cards{
+        font-size: 0.7rem;
+        height: auto;
+        
+       gap: 10%;
+        display: flex;
+       flex-wrap:wrap;
+    }
+
+    .section3__cards1{
+        width: 100vw;
+        margin-bottom: 59px;
+    }
+    .section3__cards2{
+        width: 100vw;
+        margin-bottom: 59px;
+    }
+    .section3__cards3{
+        width: 100vw;
+        margin-bottom: 59px;
+    }
+    
+    .card__container{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 100vw;
+    }
+    .form-register{
+      width: 300px;
+      top: 16%;
+      left: 10%;
+      
+
+    }
+    .form-register p {
+      height: 40px;
+      text-align: center;
+      font-size: 18px;
+      line-height: 20px;
+  }
+  .section1__text{
+      font-size: 1.2rem;
+  }
+  .section1__h2{
+      font-size: 3rem;
+  }
+  .section1__paragraph {
+  font-size: 1rem;
+  padding: 0;
+}
+  }

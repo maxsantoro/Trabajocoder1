@@ -1,0 +1,35 @@
+.image{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+
+}
+.section1__conteiner{
+    background: #28445a;
+    color: white;
+    padding: 56px 20px 85px 20px;
+    text-align: center;
+    height:600px;
+    width: 100%;
+    position: relative;
+}
+.section1__text{
+    font-size: 2.5rem;
+    color: white;
+    /* font-weight: 600; */
+    letter-spacing: 3.8px;
+    margin-top: 95px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.section1__paragraph{
+   
+    font-size: 1.5rem;
+    margin: 47px auto 0;
+    max-width: 1280px;
+    padding: 0 140px;
+    font-family: sans-serif;
+    
+}
