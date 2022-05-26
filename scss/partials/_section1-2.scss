@@ -6,23 +6,33 @@
     gap: 1rem;
 
 }
+@mixin sizes($height, $width ){
+    height: $height;
+    width: $width;
+}
 .section1__conteiner{
     background: #28445a;
     color: white;
     padding: 56px 20px 85px 20px;
     text-align: center;
-    height:600px;
-    width: 100%;
+    @include sizes(600px,100%);
+    // height:600px;
+    // width: 100%;
     position: relative;
+}
+@mixin font ($font){
+    font-family: $font;
+    
 }
 .section1__text{
     font-size: 2.5rem;
     color: white;
-    /* font-weight: 600; */
+    
     letter-spacing: 3.8px;
     margin-top: 95px;
     text-transform: uppercase;
-    font-family: sans-serif;
+    // font-family: sans-serif;
+    @include font(sans-serif)
 }
 .section1__paragraph{
    
@@ -30,6 +40,7 @@
     margin: 47px auto 0;
     max-width: 1280px;
     padding: 0 140px;
-    font-family: sans-serif;
+    // font-family: sans-serif;
+    @include font(sans-serif)
     
 }

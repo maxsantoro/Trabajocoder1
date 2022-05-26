@@ -8,27 +8,29 @@
 }
 .categories__grid{
     display: grid;
-    
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows:repeat(2, 200px) ; */
     grid-template-columns: 2 fr;
     gap: 1rem;
-    height: 600px;
-    
+    height: 780px;
+    padding-top: 4.4rem;
 }
-
+.categories__item h2{
+    font-size: 1rem;      
+}
 .categories__item{
-    background-color: #333333;
-    color: #fff;
-    border-radius: 8px;
-    padding: 1rem;
+   border-radius: 8px;
    position: relative;
    overflow: hidden;
    text-decoration: none;
-   
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   background-size: contain;
+}
+.categories_paragraph{
+    font-size: 1rem;
+    line-height: 1.2;
 }
 .categories__img{
-    position: absolute;
+    
     transform: rotate(0deg);
     transition: transform 1s;
     height: auto;
@@ -38,10 +40,4 @@
 
 .categories__item:hover .categories__img{
     transform: rotate(1deg);
-}
-.categories__title{
-    font-size: 30px;
-    margin-bottom: 2rem;
-    text-align: center;
-    color: black;
 }

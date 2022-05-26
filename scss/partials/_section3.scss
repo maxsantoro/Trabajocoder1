@@ -18,27 +18,41 @@ section{
     margin-bottom: 5rem;
     }
 }
-
-
-
-
-
-
-
+$styles:(
+margen: 0 auto,
+display: flex,
+contenido: center,
+align: center,
+ancho: 80%,
+alto: 100%,
+fuente:1.3rem,
+espacio:5%,
+);
 
 .section3__cards{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 80%;
-    height: 100%;
-    font-size: 1.3rem;
-    gap: 5%;
+    // margin: 0 auto;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // margin: auto;
+    // width: 80%;
+    // height: 100%;
+    // font-size: 1.3rem;
+    // gap: 5%;
+    margin:map-get($styles , margen );
+    display: map-get($styles , display );
+    justify-content: map-get($styles , contenido );
+    align-items:map-get($styles , align ) ;
+    width: map-get($styles , ancho );
+    height: map-get($styles , alto );
+    font-size: map-get($styles , fuente );
+    gap: map-get($styles ,espacio );
+
   
 
 }
+
+
 .section3__cards h2{
     text-align: center;
 
@@ -83,18 +97,10 @@ section{
 
 }
 .section3__cards3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:rgb(255, 255, 255);
-    width: 33%;
-    height: 100%;
-    position: relative;
-    flex-direction: column;
-    
+    @extend .section3__cards2;
 }
 .section3__title3{
-    font-size: 4rem
+    font-size: 4rem;
 }
 .section3__cards{
     cursor: pointer;
