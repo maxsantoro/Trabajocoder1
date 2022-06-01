@@ -1,5 +1,5 @@
 section{
-    &#section3{
+    &section3{
         margin-top: 100px;
         margin-bottom: 250px;
         position: relative;
@@ -47,6 +47,7 @@ espacio:5%,
     height: map-get($styles , alto );
     font-size: map-get($styles , fuente );
     gap: map-get($styles ,espacio );
+    margin-bottom: 5rem;
 
   
 
@@ -60,6 +61,7 @@ espacio:5%,
 }
 .section3__cards h5{
     text-align: center;
+
 
 
 }

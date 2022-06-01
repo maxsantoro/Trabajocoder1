@@ -1,0 +1,3 @@
+aplique en todas las paginas los keywords y las descripciones, a su vez aplique un map get y un extend en section 3.
+intente pensar alguna manera de aplicar el map en mi proyecto pero no se me ocurrio.
+aplique mixings en section1-2.scss sobre las fuentes y los tamaños
