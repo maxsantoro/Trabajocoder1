@@ -79,9 +79,12 @@ font-size: 1.1rem;}
     .categories__grid{
         display: grid;
         grid-template-columns: repeat(1, 1fr );
-        gap: 3rem;
+        gap: 12rem;
         padding-top: 4.4rem;
     
+    }
+    .categories_title span{
+        font-size: 1rem;
     }
     
     .form-register p {
@@ -90,17 +93,31 @@ font-size: 1.1rem;}
       font-size: 18px;
       line-height: 20px;
   }
+  .categories__title{
+font-size: 3.5rem;}
   .section1__text{
       font-size: 1.2rem;
   }
   .section1__h2{
       font-size: 3rem;
   }
+  .section__help{
+    
+}
+.section__help h2{
+    font-size: 2rem;
+    
+}
+.section__help p{
+    font-size: 1rem;
+    
+}
   .section1__paragraph {
   font-size: 1rem;
   padding: 0;
 }
   }
+
 // .categories{
 //     display: flex;
 //     flex-direction: column;

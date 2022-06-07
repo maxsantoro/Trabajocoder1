@@ -1,11 +1,12 @@
 .categories{
     padding: 2rem 0;
     background-color: #fff;
+    margin-bottom: 4rem;
 }
+// TITULO DE available houses
 .categories__title{
-font-size: 3rem;
 margin-top: 8rem;
-font-size: 3rem;
+font-size: 5rem;
     background: #28445a;
     color: white;
     display: flex;
@@ -14,6 +15,8 @@ font-size: 3rem;
     width: 100%;
     position: relative;
     margin-top: 8rem;}
+    
+   
 
 .categories__contenedor{
     margin: 0 auto;
@@ -29,15 +32,63 @@ font-size: 3rem;
     justify-content: center;
     color: #fff;
 
+ }
+// TITULO DE WHY US
+.categories_title{
+    font-size: 3rem;
+    margin-top: 8rem;
+    font-size: 3rem;
+        background: #28445a;
+        color: white;
+        display: flex;
+        padding: 56px 20px 85px 20px;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        align-items: center;
+        margin-top: 8rem;
+    display: flex;
+flex-direction: column;}
+.categories_title h3{
+    font-size: 3rem;
+    text-align: center;
 }
-
+.categories_title span{
+    font-size: 1rem;
+    margin-top: 15px;
+    text-align: center;
+}
+.curved {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: #28445a;
+    height: 50vh;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+  }
 .categories__grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2.5rem;
+    gap: 13rem;
     padding-top: 1rem;
     width: 85%;
+    margin-bottom: 10rem;
 }
+.skewed {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #28445a;
+    z-index: 0;
+    transform: skewY(8deg);
+    transform-origin: top right;
+  }
+
 .categories__item h2{
     font-size: 1rem;      
 }
@@ -47,10 +98,99 @@ font-size: 3rem;
    text-decoration: none;
    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
    background-size: contain;
+   box-shadow: 0 10px 20px rgba(0,0,0,.3);
 }
 .categories_paragraph{
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin: 1rem;
     line-height: 1.2;
+    font-weight: 800;
+}
+.categories__span{
+    color: none
+    ;
+    
+}
+.section__help{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+.section__help h2{
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 1.2;
+
+}
+.section__help p{
+    line-height: 1.0;
+    font-size: 20px;
+    margin-top: 1rem;
+    
+}
+.section__help div{
+display: flex;
+flex-direction: column;
+}
+.section__help a{
+    border: 1px solid  grey;
+    background-color: transparent;
+    color: black;
+    transition: all .2s;
+    margin: 0 auto;
+}
+
+
+
+$color: #28445a;
+
+.button {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $color;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: darken($color, 15%);
+    transition: all .3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  &:hover {
+    color: #fff;
+    &:before {
+      width: 100%;
+    }
+  }
 }
 .categories__img{
     
